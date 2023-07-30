@@ -11,6 +11,7 @@ print(float("1.3"))
 print(float(1))
 print(float(True))
 # 写出字符串、整型、浮点型转布尔型的例子
-print(bool("True"))
+print(bool(""))
 print(bool(1))
 print(bool(1.0))
+print(bool(None))
