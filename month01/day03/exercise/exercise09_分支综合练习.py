@@ -8,3 +8,14 @@
     请输入月份：10
     31天
 """
+month = int(input("请输入月份："))
+year = int(input("请输入年份"))
+if month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10 or month == 12:
+    print("31" + "天")
+if month == 4 or month == 6 or month == 9 or month == 11:
+    print("30" + "天")
+if month == 2:
+    if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+        print("29" + "天")
+    else:
+        print("28" + "天")
