@@ -4,3 +4,7 @@
 请输入总两数：100
 结果为：6斤4两
 """
+liang = int(input("请输入总两数："))
+jin = liang // 16
+liang_2 = liang % 16
+print("结果为：" + str(jin) + "斤" + str(liang_2) + "两")

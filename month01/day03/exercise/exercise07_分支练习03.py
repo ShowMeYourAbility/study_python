@@ -14,3 +14,17 @@
 请输入第4个同学身高:165
 最高的同学:180
 """
+a = float(input("请输入第1个同学身高:"))
+b = float(input("请输入第2个同学身高:"))
+c = float(input("请输入第3个同学身高:"))
+d = float(input("请输入第4个同学身高:"))
+e = 0
+if a > e:
+    e = a
+if b > e:
+    e = b
+if c > e:
+    e = c
+if d > e:
+    e = d
+print("最高的同学:" + str(e))

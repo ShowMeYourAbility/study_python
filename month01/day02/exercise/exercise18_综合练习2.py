@@ -5,3 +5,6 @@
 请输入另一个加数：5
 3+5=8
 """
+a=float(input("请输入加数："))
+b=float(input("请输入另一个加数："))
+print(a+b)
