@@ -13,7 +13,7 @@
 year = int(input("请输入年份："))
 month = int(input("请输入月份："))
 # 是不是闰年
-if year % 4 == 0 and year % 4 > 0 or year % 400 == 0:
+if year % 4 == 0 and year % 100 > 0 or year % 400 == 0:
     is_leap_year = True
 else:
     is_leap_year = False
